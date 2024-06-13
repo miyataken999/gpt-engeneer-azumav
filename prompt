@@ -1,0 +1,41 @@
+これのサンプルデータをSQLLieteで作って
+djangoで検索システム
+dockerでテストする
+sql
+SELECT * 
+FROM shop 
+WHERE 
+  category LIKE '%Fluorescence%' 
+  OR category LIKE '%Carat%' 
+  OR category LIKE '%Color Grade%' 
+  OR category LIKE '%Cutting Style%' 
+  OR name LIKE '%FLUORESCENCE%' 
+  OR category LIKE '%Round Brilliant%' 
+  OR subcategory LIKE '%CUT PROPORTION%' 
+  OR subcategory LIKE '%CUT GRADE%' 
+  OR subcategory LIKE '%POLISH%' 
+  OR subcategory LIKE '%SYMMETRY%' 
+  OR subcategory LIKE '%THIN-MEDIUM%' 
+  OR subcategory LIKE '%MEDIUM WHITISH BLUE%' 
+  AND 
+  (PRICE >= 0 AND PRICE <= 4.41);これのサンプルデータをSQLLieteで作って
+djangoで検索システム
+dockerでテストする
+sql
+SELECT * 
+FROM shop 
+WHERE 
+  category LIKE '%Fluorescence%' 
+  OR category LIKE '%Carat%' 
+  OR category LIKE '%Color Grade%' 
+  OR category LIKE '%Cutting Style%' 
+  OR name LIKE '%FLUORESCENCE%' 
+  OR category LIKE '%Round Brilliant%' 
+  OR subcategory LIKE '%CUT PROPORTION%' 
+  OR subcategory LIKE '%CUT GRADE%' 
+  OR subcategory LIKE '%POLISH%' 
+  OR subcategory LIKE '%SYMMETRY%' 
+  OR subcategory LIKE '%THIN-MEDIUM%' 
+  OR subcategory LIKE '%MEDIUM WHITISH BLUE%' 
+  AND 
+  (PRICE >= 0 AND PRICE <= 4.41);

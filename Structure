@@ -1,0 +1,13 @@
+project/
+app/
+models.py
+views.py
+serializers.py
+__init__.py
+tests/
+test_views.py
+__init__.py
+__init__.py
+requirements.txt
+docker-compose.yml
+Dockerfile
